@@ -1,0 +1,60 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "John Smilge",
+      "job": "Software Engg",
+      "image": "https://randomuser.me/api/portraits/men/32.jpg",
+      "text": "Angular Signals make states managment super easy"
+    },
+    {
+      "id": 2,
+      "name": "Emily Carter",
+      "job": "UI/UX Designer",
+      "image": "https://randomuser.me/api/portraits/women/44.jpg",
+      "text": "Design systems help keep products consistent and scalable."
+    },
+    {
+      "id": 3,
+      "name": "Michael Lee",
+      "job": "Frontend Developer",
+      "image": "https://randomuser.me/api/portraits/men/46.jpg",
+      "text": "React hooks simplify state and lifecycle management."
+    },
+    {
+      "id": 4,
+      "name": "Sophia Martinez",
+      "job": "Product Manager",
+      "image": "https://randomuser.me/api/portraits/women/68.jpg",
+      "text": "Clear communication is key to building successful products."
+    },
+    {
+      "id": 5,
+      "name": "David Kim",
+      "job": "Backend Developer",
+      "image": "https://randomuser.me/api/portraits/men/75.jpg",
+      "text": "Efficient APIs can drastically improve application performance."
+    },
+    {
+      "id": 6,
+      "name": "Olivia Brown",
+      "job": "QA Engineer",
+      "image": "https://randomuser.me/api/portraits/women/12.jpg",
+      "text": "Automation testing saves time and reduces human error."
+    },
+    {
+      "id": 7,
+      "name": "James Wilson",
+      "job": "DevOps Engineer",
+      "image": "https://randomuser.me/api/portraits/men/22.jpg",
+      "text": "CI/CD pipelines make deployments faster and more reliable."
+    },
+    {
+      "id": 8,
+      "name": "Ava Thompson",
+      "job": "Data Scientist",
+      "image": "https://randomuser.me/api/portraits/women/30.jpg",
+      "text": "Data-driven decisions lead to better business outcomes."
+    }
+  ]
+}

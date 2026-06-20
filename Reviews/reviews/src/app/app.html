@@ -1,0 +1,22 @@
+<div class="container">
+  <h2>Our Employee's Reviews</h2>
+
+  @if(loading()){
+    <p class="loading">Loading Reviews...</p>
+  } @else {
+    @if(currentReview){
+      <div class="card">
+        <img [src]="currentReview.image" alt="user image" />
+        <h3>{{currentReview.name}}</h3>
+        <p class="job">{{currentReview.job}}</p>
+        <p class="text">"{{currentReview.text}}"</p>
+
+        <div class="buttons">
+          <button (click)="previousReview()">Previous</button>
+          <button (click)="nextreivew()">Next</button>
+        </div>
+        <button class="random-btn" (click)="randomReview()">Surprise Me</button>
+      </div>
+    }
+  }
+</div>

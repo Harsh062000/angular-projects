@@ -1,0 +1,30 @@
+<h1>{{trimeText() | trimText}}</h1>
+<hr />
+<h1>{{myStr() | trimText:myStr().length}}</h1>
+<hr />
+<h1>{{amount() | currency:'INR'}}</h1>
+<h1>ToDo Application in Angular JS</h1>
+<h3>To Do Lists</h3>
+<div class="todo-add-container">
+  <input 
+    type="text" 
+    placeholder="Add your tasks" 
+    class="todo-input" 
+    [value]="taskInput()"
+    (input)="taskInput.set($event.target.value)"
+  >
+  <button class="todo-btn" (click)="addTask()">Add</button>
+</div>
+@for(task of tasks(); track task.id){
+  <li class="task-list">
+    <span>{{task.id + 1}}</span>
+    <span>{{task.task}}</span>
+    <span><button (click)="deleteTask(task.id)">Delete</button></span>
+  </li>
+}
+
+
+
+@empty{
+  <span>No Task In The List</span>
+}

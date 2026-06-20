@@ -1,0 +1,23 @@
+.sidebar{
+  width: 200px;
+  height: 100vh;
+  background-color: #1e293b;
+  color: white;
+  padding: 24px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2{
+  display: block;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.sidebar a{
+  cursor: pointer;
+  margin:10px 0;
+}
+
+
